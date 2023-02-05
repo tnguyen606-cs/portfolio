@@ -55,6 +55,25 @@ Made a dev dependency for gh-pages
 
 Deploy the app to github page
 
+## Add deployment scripts to the package.json file
+
+Open the package.json file in a text editor (if it isn't already open in one).
+
+> $ vi package.json
+
+Add a `predeploy` property and a `deploy` property to the scripts object:
+
+"scripts": {
+
+- "start": "react-scripts start",
+
+* "predeploy": "npm run build",
+* "deploy": "gh-pages -d build",
+
+- "build": "react-scripts build",
+  }
+  At this point, the React app's package.json file includes deployment scripts.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
