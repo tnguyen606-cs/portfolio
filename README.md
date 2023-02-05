@@ -1,6 +1,8 @@
 # About This Repository
 
-This is Tam Nguyen portfolio page containing all work projects created by Tam.
+This is Tam Nguyen portfolio page containing all work projects created by Tam. 
+
+Link: https://tnguyen606-cs.github.io/portfolio/
 
 ## Available Scripts
 
