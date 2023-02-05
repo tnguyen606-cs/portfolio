@@ -47,7 +47,13 @@ Check here: npmjs.com/package/react-router-dom. Install react-router-dom
 
 Check here: https://react-icons.github.io/react-icons/. Install the use of react-icons
 
-### `npm install react-icons --save`
+### `npm install gh-pages --save-dev`
+
+Made a dev dependency for gh-pages
+
+### `npm run deploy`
+
+Deploy the app to github page
 
 ## Learn More
 
