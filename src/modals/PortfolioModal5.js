@@ -13,18 +13,18 @@ export function Modal5() {
             <p>Through the power of ChatGPT AI, built a serverless application that helps users create detailed itineraries based on location, trip length, and interests.</p>
             <h3 className="h4 mb-4 mt-5">How to build this app?</h3>
             <ul className="list-inline-item">
-                <li>
-                    The app connects to OpenAI API and deployed as Azure functions.
-                </li>
-                <li>
-                    Automated API tests with Postman.
-                </li>
-                <li>
-                    Linked Open API to Bubble.io for front-end.
-                </li>
-                <li>
-                    Wrote main code in Python. 
-                </li>
+              <li>
+                  The app connects to OpenAI API and deployed as Azure functions.
+              </li>
+              <li>
+                  Automated API tests with Postman.
+              </li>
+              <li>
+                  Linked Open API to Bubble.io for front-end.
+              </li>
+              <li>
+                  Wrote main code in Python. 
+              </li>
             </ul>
             <Link to="/">
                 <button className="btn btn-success btn-l text-uppercase mt-5" type="button">
