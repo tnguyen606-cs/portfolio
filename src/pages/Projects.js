@@ -31,10 +31,10 @@ export function Projects() {
         <div className="col-lg-3 text-center">
           <div className="mt-5">
             <div className="mb-2"><FaMoneyCheck className="fs-1 text-primary" /></div>
-            <Link to="/DjangoApp">
-                <h3 className="h4 mb-2">Expense Tracker</h3>
+            <Link to="/ExpenseApp">
+                <h3 className="h4 mb-2">AI Expense Tracker</h3>
             </Link>
-            <p className="text-muted mb-0">An application helps users track expenses.</p>
+            <p className="text-muted mb-0">An application helps users track expenses using AI and ML concepts.</p>
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@ root.render(
       <Route path="/AdobeInternship" element={<Modal1 />} />
       <Route path="/CitiInternship" element={<Modal2 />} />
       <Route path="/DacoApp" element={<Modal3 />} />
-      <Route path="/DjangoApp" element={<Modal4 />} />
+      <Route path="/ExpenseApp" element={<Modal4 />} />
       <Route path="/ChatGPT" element={<Modal5 />} />
       <Route path='/about' element={<About />} />
       <Route path='/exp' element={<Experience />} />
