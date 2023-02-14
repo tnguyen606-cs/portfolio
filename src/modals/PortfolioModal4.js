@@ -34,13 +34,13 @@ export function Modal4() {
             </button>
           </Link>
           <a href="https://github.com/tnguyen606-cs/AI-ExpenseApp" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="col-r">
-              <button className="btn btn-primary btn-l text-uppercase mt-5" type="button">
-                Project Demo
-              </button>
-            </a>
+            target="_blank"
+            rel="noopener noreferrer"
+            className="col-r">
+            <button className="btn btn-primary btn-l text-uppercase mt-5" type="button">
+              Project Demo
+            </button>
+          </a>
         </div>
       </div>
     </div>
