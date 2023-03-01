@@ -8,7 +8,9 @@ export function About() {
           <div className="col-lg-8 text-center">
             <h2 className="text-white font-weight-bold">ABOUT ME</h2>
             <hr className="divider" />
-            <p className="text-white-85 mb-4">I'm a senior Computer Science student at Georgia Tech.</p>
+            <p className="text-white-85 mb-4">I'm a senior Computer Science student at Georgia Tech. 
+            I have experience developing end-to-end applictions. </p>
+            <p className="text-white-85 mb-4"> I love computer science and digital technology.  </p>
             {/* <Link className="btn btn-primary btn-xl" to="/exp">Learn more</Link> */}
             <a className="btn btn-primary btn-xl" href="#exp">Learn more</a>
           </div>

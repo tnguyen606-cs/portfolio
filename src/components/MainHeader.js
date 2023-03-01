@@ -9,7 +9,7 @@ export function MainHeader() {
       {/* <!-- Navigation--> */}
       <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div className="container px-4 px-lg-5">
-          <a className="navbar-brand" >Hi, I'm Tam!</a>         
+          <a className="navbar-brand" >Hi there, I'm Tam!</a>         
           <div className="navbar-collapse">
             <ul className="navbar-nav ms-auto my-2 my-lg-0">
               {/* <li className="nav-item">
@@ -35,6 +35,7 @@ export function MainHeader() {
               <li className="nav-item"><a className="navbar-brand" href="#about">About</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#exp">Experience</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#project">Projects</a></li>
+              <li className="nav-item"><a className="navbar-brand" href="#project">Skills</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#contact">Contact</a></li>
             </ul>
           </div>

@@ -13,18 +13,18 @@ export function Experience() {
             <div className="mt-5">
             <div className="mb-2"><FaDesktop className="fs-1 text-primary"/></div>
             <Link to="/AdobeInternship">
-                <h3 className="h4 mb-2">Adobe UI Features</h3>
+                <h3 className="h4 mb-2">Adobe Inc. - Frontend Engineer Intern</h3>
             </Link>
-            <p className="text-muted mb-0">UI Features for Adobe Marketo Users</p>
+            <p className="text-muted mb-0">Create UI Features for Adobe Marketo Users</p>
             </div>
         </div>
         <div className="col-lg-6 col-md-6 text-center">
           <div className="mt-5">
             <div className="mb-2"><FaCloudversify className="fs-1 text-primary" /></div>
             <Link to="/CitiInternship">
-                <h3 className="h4 mb-2">Citi REST API</h3>
+                <h3 className="h4 mb-2">Citigroup - Software Development Intern</h3>
             </Link>
-            <p className="text-muted mb-0">A RESTful web from Citi's internal APIs</p>
+            <p className="text-muted mb-0">Build Developer Hub Portal for Citi's APIs</p>
             </div>
           </div>
         </div>
