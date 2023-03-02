@@ -32,7 +32,7 @@ export function Modal1() {
             onClick={() => {close();}}>
           Close
           </button>
-          <a href="https://github.com/tnguyen606-cs/ChatGPT_TravelPlan" 
+          <a href="https://tnguyen606-cs.github.io/adobe-react-2022/" 
             target="_blank"
             rel="noopener noreferrer"
             className="col-r">
