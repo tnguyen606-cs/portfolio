@@ -15,8 +15,15 @@ export function Contact() {
               <a className="Linkedin-link"
                 href="https://www.linkedin.com/in/hongtam-nguyen/"
                 target="_blank"
-                rel="noopener noreferrer"><strong>Linkedln</strong>
+                rel="noopener noreferrer"><strong>LinkedIn</strong>
               </a>
+              <div>
+              <a className="Linkedin-link"
+                href="https://github.com/tnguyen606-cs"
+                target="_blank"
+                rel="noopener noreferrer"><strong>GitHub</strong>
+              </a>
+              </div>
             </div>
           </div>
         </div>

@@ -35,7 +35,6 @@ export function MainHeader() {
               <li className="nav-item"><a className="navbar-brand" href="#about">About</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#exp">Experience</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#project">Projects</a></li>
-              <li className="nav-item"><a className="navbar-brand" href="#project">Skills</a></li>
               <li className="nav-item"><a className="navbar-brand" href="#contact">Contact</a></li>
             </ul>
           </div>

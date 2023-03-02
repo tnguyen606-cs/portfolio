@@ -1,11 +1,9 @@
-import { Link } from 'react-router-dom';
 import { FaDesktop, FaCloudversify } from "react-icons/fa";
 import { Modal1 } from "../modals/PortfolioModal1";
 import { Modal2 } from "../modals/PortfolioModal2";
 import '../App.css';
 
 export function Experience() {
-
   return (
     <section className="page-section bg-light" id="exp">
       <div className="container px-4 px-lg-5">

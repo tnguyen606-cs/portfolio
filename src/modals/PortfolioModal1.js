@@ -37,7 +37,7 @@ export function Modal1() {
             rel="noopener noreferrer"
             className="col-r">
             <button className="btn btn-primary btn-l text-uppercase" type="button">
-              Project Demo
+              Learn more
             </button>
           </a>
         </div>
