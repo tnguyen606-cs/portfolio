@@ -12,29 +12,29 @@ export function Projects() {
         <h2 className="text-center font-weight-bold">PROJECTS</h2>
         <hr className="divider" />
         <div className="row-pj gx-lg-5">
-        <div className="col-lg-3 text-center">
-          <div className="mt-5">
-            <div className="mb-2"><FaMoneyCheck className="fs-1 text-primary" /></div>
-            <Modal5></Modal5>
-            <p className="text-muted mb-0">An AI-powered expense management application</p>
+          <div className="col-lg-3 text-center">
+            <div className="mt-5">
+              <div className="mb-2"><FaMoneyCheck className="fs-1 text-primary" /></div>
+              <Modal5></Modal5>
+              <p className="text-muted mb-0">An AI-powered expense application</p>
             </div>
           </div>
-        </div>
-        <div className="col-lg-3 text-center">
+          <div className="col-lg-3 text-center">
             <div className="mt-5">
-            <div className="mb-2"><SiOpenai className="fs-1 text-primary" /></div>
-            <Modal4></Modal4>
-            <p className="text-muted mb-0">A serverless application with OpenAi and ChatGPT</p>
+              <div className="mb-2"><SiOpenai className="fs-1 text-primary" /></div>
+              <Modal4></Modal4>
+              <p className="text-muted mb-0">A serverless application with OpenAi and ChatGPT</p>
             </div>
-        </div>
-        <div className="col-lg-3 text-center">
+          </div>
+          <div className="col-lg-3 text-center">
             <div className="mt-5">
-            <div className="mb-2"><FaAndroid className="fs-1 text-primary" /></div>
-            <Link to="/DacoApp">
-                <h3 className="h3 mb-2">DACO App</h3>
-            </Link>
-            <p className="text-muted mb-0">An Android mobile application</p>
+              <div className="mb-2"><FaAndroid className="fs-1 text-primary" /></div>
+              <Link to="/DacoApp">
+                  <h3 className="h3 mb-2">DACO App</h3>
+              </Link>
+              <p className="text-muted mb-0">An Android mobile application</p>
             </div>
+          </div>
         </div>
       </div>
     </section>
