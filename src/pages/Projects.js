@@ -13,13 +13,12 @@ export function Projects() {
         <hr className="divider" />
         <div className="row-pj gx-lg-5">
         <div className="col-lg-3 text-center">
-            <div className="mt-5">
-            <div className="mb-2"><FaAndroid className="fs-1 text-primary" /></div>
-            <Link to="/DacoApp">
-                <h3 className="h3 mb-2">DACO App</h3>
-            </Link>
-            <p className="text-muted mb-0">An Android mobile application</p>
+          <div className="mt-5">
+            <div className="mb-2"><FaMoneyCheck className="fs-1 text-primary" /></div>
+            <Modal5></Modal5>
+            <p className="text-muted mb-0">An AI-powered expense management application</p>
             </div>
+          </div>
         </div>
         <div className="col-lg-3 text-center">
             <div className="mt-5">
@@ -29,12 +28,13 @@ export function Projects() {
             </div>
         </div>
         <div className="col-lg-3 text-center">
-          <div className="mt-5">
-            <div className="mb-2"><FaMoneyCheck className="fs-1 text-primary" /></div>
-            <Modal5></Modal5>
-            <p className="text-muted mb-0">An AI-powered expense management application</p>
+            <div className="mt-5">
+            <div className="mb-2"><FaAndroid className="fs-1 text-primary" /></div>
+            <Link to="/DacoApp">
+                <h3 className="h3 mb-2">DACO App</h3>
+            </Link>
+            <p className="text-muted mb-0">An Android mobile application</p>
             </div>
-          </div>
         </div>
       </div>
     </section>

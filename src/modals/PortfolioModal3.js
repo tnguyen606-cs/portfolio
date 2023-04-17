@@ -20,13 +20,13 @@ export function Modal3() {
                 <h3 className="h4 mb-4 mt-5">Responsibilities</h3>
                 <ul className="list-inline-item mb-4">
                   <li>
-                    Worked in a team of 5 teammates in a SCRUM environment to build an Android mobile app for Airborne Operation Contingency Optimization of the US Army.
+                  Worked in a team of 5 teammates in a SCRUM environment to build an Android mobile app for Airborne Operation Contingency Optimization of the U.S. Army.
                   </li>
                   <li>
-                    Applied Java's Data Structure and Algorithm concepts that allowed users to perform appropriate operations in the airfield.
+                  Leveraged advanced Data Structure and Algorithm to allow users to perform appropriate operations on the app effectively.
                   </li>
                   <li>
-                    Implemented with Android Studio (coded in Java), and Firebase to display and retrieve the data in real-time.
+                  Implemented with Android Studio (coded in Java), integrated Firebase to display and retrieve the data in real-time, and utilized Figma to design user-friendly UI elements.
                   </li>
                 </ul>
                 <Link className="col-r" to="/#about">

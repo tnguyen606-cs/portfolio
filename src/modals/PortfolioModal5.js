@@ -21,19 +21,19 @@ export function Modal5() {
                 <p>An awesome AI-powered expense-saving app to jumpstart that helps users in saving little by little for personal goals by tracking users daily expenses and send summary alerts via SMS message.</p>
                 <h3 className="h4 mb-4 mt-5">How to build this app?</h3>
                 <li>
-                  Use AI and Machine Learning algorithm to predict the money flow.
+                  Leveraged Machine Learning recommendation algorithms to analyze the said data and predict the money flow.
                 </li>
                 <li>
-                  Display categories through visible charts that give users a detailed view.
+                  Display expenses/categories through visible charts that give users a detailed view.
                 </li>
                 <li>
                   Use SSO and Google two-factor Authenticator in Python to make users secured authentication. 
                 </li>
                 <li>
-                  Build a tool to send daily summary alerts via SMS using Python and Twilio API.
+                  Use Python and Twilio API to send updated summary alerts via SMS.
                 </li>
                 <li>
-                  Utilize: Python, Flask, SQLite, PostgreSQL, HTML, CSS, Matplotlib, Twilio API, Heroku, AWS S3.
+                  Utilize: Python, Flask, SQLAlchemy, SQLite, PostgreSQL, Pandas, Numpy, Matplotlib, HTML, CSS, Twilio API, Heroku, AWS.
                 </li>
               </ul>
             </div>
