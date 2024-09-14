@@ -1,6 +1,6 @@
 import './App.css';
 
-import { MainHeader } from './components/MainHeader';
+import { MainNav } from './components/MainNav';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { About } from './components/About';
@@ -9,7 +9,7 @@ import { Contact } from './components/Contact';
 function App() {
   return (
     <div className="App" id="mainApp">
-      <MainHeader />
+      <MainNav />
       <main>
         <About id="aboutMe"/>
         <Experience id="experience"/>

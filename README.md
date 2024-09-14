@@ -1,6 +1,6 @@
 # About This Repository
 
-This is Tam Nguyen portfolio page containing all work projects built by Tam. 
+This is Tam Nguyen portfolio page containing all work projects built by Tam.
 
 Link: https://tnguyen606-cs.github.io/portfolio/
 
@@ -52,6 +52,8 @@ Check here: https://react-icons.github.io/react-icons/. Install the use of react
 ### `npm install gh-pages --save-dev`
 
 Made a dev dependency for gh-pages
+
+If getting error as redeploy, try "deploy": "gh-pages-clean gh-pages -d build"
 
 ### `npm run deploy`
 

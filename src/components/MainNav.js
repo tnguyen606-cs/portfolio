@@ -1,7 +1,7 @@
 import '../App.css';
 import { Welcome } from './Welcome';
 
-export function MainHeader() {
+export function MainNav() {
   const myResumeUrl = 'https://drive.google.com/file/d/1_BdUnuFR9ZiTibhXlg3fIvzEAdP_j0p0/view?usp=sharing';
   
   // Add the scrolling event to update the nav's bar background when scrolling through the page
@@ -28,16 +28,16 @@ export function MainHeader() {
                 <a className="nav-link text-uppercase" href={myResumeUrl} target="_blank" rel="noopener noreferrer">my resume</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="/#aboutMe">about me</a>
+                <a className="nav-link text-uppercase" href="#aboutMe">about me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="/#experience">experience</a>
+                <a className="nav-link text-uppercase" href="#experience">experience</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="/#projects">projects</a>
+                <a className="nav-link text-uppercase" href="#projects">projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase" href="/#contactMe">contact me</a>
+                <a className="nav-link text-uppercase" href="#contactMe">contact me</a>
               </li>
             </ul>
           </div>
