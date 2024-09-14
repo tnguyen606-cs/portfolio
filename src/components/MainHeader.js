@@ -1,41 +1,44 @@
-// import { NavLink } from 'react-router-dom';
 import '../App.css';
-
-import { Welcome } from '../pages/Welcome';
+import { Welcome } from './Welcome';
 
 export function MainHeader() {
+  const myResumeUrl = 'https://drive.google.com/file/d/1_BdUnuFR9ZiTibhXlg3fIvzEAdP_j0p0/view?usp=sharing';
+  
+  // Add the scrolling event to update the nav's bar background when scrolling through the page
+  window.addEventListener('scroll', function() {
+    const mainNav = document.getElementById('mainNav');
+    
+    if (window.scrollY > 500) {
+      mainNav.classList.add('navbar-shrink');
+    } else {
+      mainNav.classList.remove('navbar-shrink');
+    }
+  });
+  
   return (
-    <header className="masthead">
+    <header className="masthead" id="mainHeader">
       {/* <!-- Navigation--> */}
       <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div className="container px-4 px-lg-5">
-          <a className="navbar-brand" >Hi there, I'm Tam!</a>         
+          <a className="navbar-brand" href="/#">Hello World, I'm Tam!</a>         
           <div className="navbar-collapse">
-            <ul className="navbar-nav ms-auto my-2 my-lg-0">
-              {/* <li className="nav-item">
-                <NavLink className="navbar-brand" to='/about'>
-                About
-                </NavLink>
+            {/* <!-- Margin Nav to the Right--> */}
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link text-uppercase" href={myResumeUrl} target="_blank" rel="noopener noreferrer">my resume</a>
               </li>
               <li className="nav-item">
-                <NavLink className="navbar-brand" to="/exp">
-                Experience
-                </NavLink>
+                <a className="nav-link text-uppercase" href="/#aboutMe">about me</a>
               </li>
               <li className="nav-item">
-                <NavLink className="navbar-brand" to="/projects">
-                Projects
-                </NavLink>
+                <a className="nav-link text-uppercase" href="/#experience">experience</a>
               </li>
               <li className="nav-item">
-                <NavLink className="navbar-brand" to="/contact">
-                Contact
-                </NavLink>
-              </li> */}
-              <li className="nav-item"><a className="navbar-brand" href="#about">About</a></li>
-              <li className="nav-item"><a className="navbar-brand" href="#exp">Experience</a></li>
-              <li className="nav-item"><a className="navbar-brand" href="#project">Projects</a></li>
-              <li className="nav-item"><a className="navbar-brand" href="#contact">Contact</a></li>
+                <a className="nav-link text-uppercase" href="/#projects">projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-uppercase" href="/#contactMe">contact me</a>
+              </li>
             </ul>
           </div>
         </div>
