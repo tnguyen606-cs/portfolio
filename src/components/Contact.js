@@ -10,12 +10,12 @@ export function Contact() {
           <div className="row">
             <div className="d-flex justify-content-center mt-5">
               <div className="mx-3 text-center">
-                <a href="mailto:nguyenhongtri11@gmail.com">
+                <a href="mailto:atanguyen3094@gmail.com">
                   <FaGoogle className="fs-2 text-primary"/>
                 </a>  
               </div>
               <div className="mx-3 text-center">
-                <a href="https://www.linkedin.com/in/hongtam-nguyen/" 
+                <a href="https://linkedin.com/in/atanguyen3094" 
                   target="_blank"
                   rel="noopener noreferrer">
                   <FaLinkedin className="fs-2 text-primary"/>
