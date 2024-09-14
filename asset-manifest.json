@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d24c3748.css",
+    "main.js": "/portfolio/static/js/main.99f29287.js",
+    "static/media/silicon_valley.jpg": "/portfolio/static/media/silicon_valley.7b5d3b281670a8d262a0.jpg",
+    "static/media/programming.jpg": "/portfolio/static/media/programming.e751fcc91e24f1dbf02d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.d24c3748.css.map": "/portfolio/static/css/main.d24c3748.css.map",
+    "main.99f29287.js.map": "/portfolio/static/js/main.99f29287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d24c3748.css",
+    "static/js/main.99f29287.js"
+  ]
+}
